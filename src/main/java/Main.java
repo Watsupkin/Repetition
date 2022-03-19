@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        AgeVerify verify = new AgeVerify();
+       Employee employee = new Employee();
 
-        verify.ageVerify();
-        verify.ageVerify();
-        verify.ageVerify();
+       employee.setAge(-6);
+       employee.setAge(18);
+       employee.setExp(-2);
+       employee.setExp(4);
+
 
     }
 }
